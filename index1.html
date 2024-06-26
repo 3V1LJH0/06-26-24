@@ -7,60 +7,95 @@
 </head>
 <body>
 
-    <div id="header1">
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
-        <h4>Header 4</h4>
-        <h5>Header 5</h5>
-        <h6>Header 6</h6>
-    </div>
+    
+        <h1>OneCodeCamp Asia PHTO8</h1>
+        <h2>A Personal Webpage</h2>
+        <h3>By: Kenji <br> June 06, 2024</h3>
+        <div id="TableOfContents">
+            <h3>Table of Contents</h3>
+            <hr>
+            <ul>
+                
+                <li><b>Introduction</b></li>
+                <li><b>Paragraph</b></li>
+                <li><b>Horizontal Rule</b></li>
+                <li><b>Ordered List</b></li>
+                <li><b>Unordered List</b></li>
+                <li><b>Definition List</b></li>
+                <li><b>Anchors and Reference</b></li>
+                
+            </ul>
+        </div>
+        
+        
+    
 
     <div id="paragraph">
-    <hr>
-    <p>This is an element called paragraph. hr means horizontal rules</p>
-    <hr>
-    <p>This is the second paragraph. <br>Break tag</p>
-    <p>This is <b>Bold</b></p>
-    <p>Strong is also for <strong>Bold</strong></p>
-    <p>em is for <em>emphasis</em>. <br> i is for <i>Italic</i></p>
-    <p>u is for <u>Underlined</u> text</p>
-    <p>s is for <s>strike through</s> message</p>
-    <p>sub is for subscript. <br>example: <br><sup>3</sup>&frasl;<sub>3 <br> frasl; means fraction line</sub></p>
-    <p>sup is for supscript. <br>example: <br>3<sup>3</sup></p>
-    </div>
+        <hr>
+        <h3>Introduction</h3>
+            <p>
+            Today we were taught about the basics and fundamental tags of HTML. <b>HTML</b> stands for <b><i>Hypertext Markup Language.</i></b>An HTML file consists of Document type tag, an html open and closing tag, head tags, and body tags.
+             A Document type tag signifies the extension of file type of the document.
+            HTML tags denotes that the file is indeed an HTML file.
+            The Head tags consist of relevant information about the document such as the document file name, main title page name and its parameters.
+            The Body tags consist all of the text related or the main worspace of HTML. This is where all of the information is allocated as well as the styles.
+    
+            </p>
+        <hr>
+            <p><strong>Paragraph(p)</strong> tags contains strings of texts and may also contain other HTML tags as a nested query</p>
+            <p><strong>(hr)</strong> tag means Horizontal Rules, this tag creates a horizontal line that varies on where it is declared or positioned.</p>
+            <p><strong>Ordered List</strong> is an array which enumerates <Strong>List Items(li)</Strong> with a standard ordinal format. <br> Example of Ordered List</p>
     
     <div>
-        <ol type="I" id="lists">
-        <li>ol means ordered list</li>
-        <li>li means List Item</li>
-        <li>"type = " inside an li tag explicitly specifies the enumeration type</li>
-        <ul>a sample of nested list</ul>
-    </ol>
-
-    <ul>
-        <li>ul means unordered list</li>
-    </ul>
-
-    <dl>
-        <dt>dl</dt>
-        <dd>definition list</dd>
-        <dt>dt</dt>
-        <dd>definition title</dd>
-        <dt>dd</dt>
-        <dd>definition</dd>
-    </dl>
+        <ol type="1" id="lists">
+        <li><b>Bold(b)</b></li>
+        <li><strong>Strong(strong)</strong></li>
+        <li><strong>"type = "</strong> inside an <strong>(li)</strong> tag explicitly specifies the enumeration type</li>
+            <ul>A sample of nested list</ul>
+        </ol>
     </div>
+
+    <p><strong>Unordered List</strong> is an array which enumerates <Strong>List Items(li)</Strong> with bullets. <br> Example of Unordered List</p>
     
     <div>
-        <p>a is for anchor, and href is for refence</p>
         <ul>
-            <li><a href="https://github.com/" target="_blank">github.com</a></li>
-            <li><a href="#header1">go to header</a></li>
-            <li><a href="#paragraph">go to paragraph</a></li>
+            <li><strong>(ul)</strong> means unordered list</li>
+            <li><strong>(em)</strong> is for <em>emphasis</em>.</li> 
+            <li><strong>(i)</strong> is for <i>Italic</i></li>
+            <li><strong>(u)</strong> is for <u>Underlined</u> text</li>
+            <li><strong>(s)</strong> is for <s>strike through</s> message</li>
+            <li><strong>(sub)</strong> is for subscript. <br>example: <br>4<sub>3</li>
+            <li><strong>(sup)</strong> is for supscript. <br>example: <br>3<sup>3</sup></li>
         </ul>
     </div>
     
+
+    <p><strong>Definition List</strong> is an array which consists of <Strong>Definitiion Title(dt)</Strong> and <strong>Definition Description(dd)</strong>. 
+    It is mainly used for describing or defining terminologies of a certain context. <br> Example of Definition List</p>
+    
+    <div>
+        <dl>
+        <dt><Strong>dl</Strong></dt>
+        <dd><Strong>Definition list</Strong></dd>
+        <dt><Strong>dt</Strong></dt>
+        <dd><Strong>Definition title</Strong></dd>
+        <dt><Strong>dd</Strong></dt>
+        <dd><Strong>Definition Description</Strong></dd>
+        </dl>
+    </div>
+    
+
+    <p><strong>Anchors(a) and Reference(href)</strong> this tag and keyword were usually come together and were mainly used to create references on hypertext links witihin a webpage.<br> Example of Anchors and References</p>
+
+    <div>
+        <p>a is for anchor, and href is for refence</p>
+        <ul>
+            <li><a href="https://github.com/" target="_blank">Github.com</a></li>
+            <li><a href="#TableOfContents">Go to Table of Contents</a></li>
+            <li><a href="#paragraph">Go to Paragraph</a></li>
+            <li><a href="contact.html">Contact Information Form</a></li>
+        </ul>
+    </div>
     
 </body>
 </html>
