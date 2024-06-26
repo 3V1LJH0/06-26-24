@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+</head>
+<body>
+    
+    <form action="">
+        
+        <h2>Contact Information</h2>
+        <!--usage of form elements : label, input, textarea, select-->
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required />
+        <br><br>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required />
+        <br><br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" rows="4" cols="30"></textarea>
+        <br><br>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <!--Radio Buttons and checkboxes provide options for users to make selections-->
+        <br><br>
+        <label for="weapon">Favorite Weapon</label><br>
+        <input type="radio" id="Greatsword" name="weapon" value="Greatsword">
+        <label for="weapon">Greatsword</label>
+        <input type="radio" id="Longsword" name="weapon" value="Longsword">
+        <label for="weapon">Longsword</label>
+        <input type="radio" id="Shortsword" name="weapon" value="Shortsword">
+        <label for="weapon">Shortsword</label>
+        <br><br>
+        <label for="pets">Pets</label><br>
+        <input type="checkbox" name="pets" id="dog">
+        <label for="dog">Dog</label>
+        <input type="checkbox" name="pets" id="cat">
+        <label for="dog">Cat</label>
+        <input type="checkbox" name="pets" id="rabbit">
+        <label for="dog">Rabbit</label>
+    </form>
+    <br><br>
+    <h3>Rottweiler</h3>
+    <img src="https://images3.alphacoders.com/109/1099363.jpg" width="840px" height="510px">
+</body>
+</html>
